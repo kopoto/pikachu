@@ -1,0 +1,12 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8762
+  tomcat:
+    basedir: ../logs/${spring.application.name}/tomcat
+    accesslog:
+      enabled: true
+      pattern: "%t %a %r %s (%D ms)"
+      directory: ../logs/${spring.application.name}/tomcat/acc
