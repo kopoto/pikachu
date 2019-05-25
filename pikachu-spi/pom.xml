@@ -40,8 +40,20 @@
             <artifactId>spring-webmvc</artifactId>
             <version>5.1.7.RELEASE</version>
         </dependency>
-
-
-
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>yhh-nexus</id>
+            <name>yhh-nexus</name>
+            <url>http://120.79.195.71:8081/repository/maven-snapshots/</url>
+            <uniqueVersion>false</uniqueVersion>
+        </repository>
+        <snapshotRepository>
+            <id>yhh-nexus</id>
+            <name>yhh-nexus</name>
+            <url>http://120.79.195.71:8081/repository/maven-snapshots/</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
