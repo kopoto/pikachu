@@ -1,14 +1,8 @@
 package com.kopoto.yhh.pikachu.base.config;
 
-
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import java.util.List;
-import java.util.Map;
 
 
 /**
