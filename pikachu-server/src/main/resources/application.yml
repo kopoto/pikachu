@@ -4,6 +4,8 @@ spring:
     name: pikachu-server
   profiles:
     active: test
+  main:
+    allow-bean-definition-overriding: true
 
 mvc.exception.resolver.restassert.logTrace: true
 
