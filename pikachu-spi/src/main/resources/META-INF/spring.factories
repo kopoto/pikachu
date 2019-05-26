@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-    com.lianjia.confucius.godzilla.GodzillaAutoConfiguration\
+    com.kopoto.yhh.pikachu.PikachuAutoConfiguration\
