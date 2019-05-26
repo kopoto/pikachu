@@ -47,3 +47,12 @@ datasource.readonly:
   validationQuery: select 1
   validationQueryTimeout: 1
   validationInterval: 120000
+
+spring:
+  redis:
+    host: 118.89.247.112
+    port: 6379
+  cloud:
+    circuit:
+      breaker:
+        enabled: false
