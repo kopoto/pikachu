@@ -54,6 +54,18 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>com.kopoto.yhh</groupId>
+                <artifactId>doc-maven-plugin</artifactId>
+                <version>0.1.0-SNAPSHOT</version>
+                <configuration>
+                    <!-- app推荐和spring.application.name保持一致，用于全公司唯一标识一个服务 -->
+                    <!-- appName主要用于API文档界面展示，更多选项，请参考：http://doc.io/common-knowledge/api/doc-auto.html -->
+                    <options>
+                        -app pikachu-server -appName "${project.name}"
+                    </options>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <distributionManagement>
